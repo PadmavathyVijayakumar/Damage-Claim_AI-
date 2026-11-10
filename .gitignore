@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environment
+config/.env
+*.env
+.env.*
+!config/.env.example
+
+# Models & weights (use DVC or cloud storage)
+*.pt
+*.pth
+*.onnx
+*.trt
+*.engine
+models/weights/
+checkpoints/
+
+# Data
+data/raw/
+data/processed/
+data/images/
+*.parquet
+*.feather
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb~
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Testing & coverage
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# Logs
+logs/
+*.log
+
+# Docker
+.docker/
+
+# macOS
+.DS_Store
